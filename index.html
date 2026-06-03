@@ -39,6 +39,18 @@
             text-align: center;
         }
         
+        h2 {
+            color: #2c3e50;
+            margin: 30px 0 20px 0;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin: 25px 0 15px 0;
+            font-size: 1.3em;
+        }
+        
         .tagline {
             text-align: center;
             color: #7f8c8d;
@@ -60,6 +72,26 @@
             margin: 30px 0;
             border: none;
             border-top: 2px solid #ecf0f1;
+        }
+        
+        .services-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .services-section li {
+            padding: 12px 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .services-section li:hover {
+            background: #f0f3ff;
+            border-left-color: #764ba2;
+            transform: translateX(5px);
         }
         
         .documents-section h2 {
@@ -121,6 +153,8 @@
             transition: background-color 0.3s ease;
             font-weight: 600;
             white-space: nowrap;
+            border: none;
+            cursor: pointer;
         }
         
         .btn:hover {
@@ -142,6 +176,18 @@
         <h1>FM Sardan Customs Brokerage and Consultancy</h1>
         <p class="tagline">Professional Customs Brokerage and Consultancy Services</p>
         <p class="status"><em>Website currently under development.</em></p>
+        
+        <hr>
+        
+        <div class="services-section">
+            <h3>Our Services</h3>
+            <ul>
+                <li>Import Clearance Processing</li>
+                <li>Export Documentation</li>
+                <li>Customs Consultancy</li>
+                <li>Tariff Classification Advice</li>
+            </ul>
+        </div>
         
         <hr>
         
