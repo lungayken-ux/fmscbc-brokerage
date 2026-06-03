@@ -31,6 +31,12 @@
             max-width: 700px;
             width: 100%;
         }
+
+        .logo-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
         
         h1 {
             color: #2c3e50;
@@ -173,6 +179,19 @@
 </head>
 <body>
     <div class="container">
+        <!-- SVG Brand Icon Layer -->
+        <div class="logo-wrapper">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 22H22" stroke="#667eea" stroke-width="2" stroke-linecap="round"/>
+                <path d="M20 18V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V18" stroke="#667eea" stroke-width="2"/>
+                <path d="M8 9H11V12H8V9Z" fill="#764ba2" opacity="0.3"/>
+                <path d="M13 9H16V12H13V9Z" fill="#764ba2" opacity="0.3"/>
+                <path d="M8 14H11V17H8V14Z" fill="#764ba2" opacity="0.3"/>
+                <path d="M13 14H16V17H13V14Z" fill="#764ba2" opacity="0.3"/>
+                <path d="M12 2V5" stroke="#764ba2" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </div>
+
         <h1>FM Sardan Customs Brokerage and Consultancy</h1>
         <p class="tagline">Professional Customs Brokerage and Consultancy Services</p>
         <p class="status"><em>Website currently under development.</em></p>
@@ -195,14 +214,15 @@
             <h2>📁 Download Our Documents</h2>
             
             <div class="documents-grid">
+                <!-- Corrected Document Item Download Layout -->
                 <div class="document-item">
                     <div class="doc-icon">📄</div>
                     <div class="doc-info">
                         <div class="doc-name">FMS CBC Company Profile</div>
                         <div class="doc-type">PDF Document</div>
                     </div>
-                   <a href="FMS CBC COMPANY PROFILE.pdf" download>Download Company Profile</a>
-                        View PDF
+                    <a href="FMS CBC COMPANY PROFILE.pdf" download class="btn">
+                        Download PDF
                     </a>
                 </div>
                 
