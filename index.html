@@ -197,7 +197,11 @@
         <p class="status"><em>Website currently under development.</em></p>
         
         <hr>
-        
+        <form action="YOUR_BACKEND_URL" method="POST" enctype="multipart/form-data">
+    <label for="client-file">Upload Customs Documents (PDF/Images):</label>
+    <input type="file" id="client-file" name="documents" multiple>
+    <button type="submit" class="btn">Submit Documents</button>
+</form>
         <div class="services-section">
             <h3>Our Services</h3>
             <ul>
