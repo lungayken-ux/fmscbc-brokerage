@@ -1,8 +1,8 @@
-name: "CodeQL Analysis"
+name: "CodeQL Kenwell"
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Setup main" ]
   pull_request:
     branches: [ "main" ]
   schedule:
